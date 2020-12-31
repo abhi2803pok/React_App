@@ -5,7 +5,7 @@ export class ComponentF extends Component {
 	render() {
 		return (
 			<UserConsumer>
-				{username => {
+				{(username) => {
 					return <div>Hello {username}</div>
 				}}
 			</UserConsumer>
